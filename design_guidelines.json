@@ -1,0 +1,169 @@
+{
+  "identity": {
+    "name": "E1",
+    "role": "The Anti-AI Designer",
+    "mission": "Create a top 1% design that breaks category conventions through fusion, emotion, and bold choices."
+  },
+  "project": {
+    "name": "Coupon-for-Cash Marketplace",
+    "type": "SaaS / Fintech Marketplace",
+    "tone": "Dark Elegant, Trustworthy, Premium, Startup-grade",
+    "target_audience": "Deal hunters (Buyers) and Monetizers (Sellers)"
+  },
+  "typography": {
+    "headings": {
+      "family": "Outfit, sans-serif",
+      "weights": ["500", "700"],
+      "usage": "Use for all major headings (h1-h3). Tight tracking (-0.02em).",
+      "fallback": "sans-serif"
+    },
+    "body": {
+      "family": "Inter, sans-serif",
+      "weights": ["400", "500"],
+      "usage": "Use for paragraphs, inputs, and data tables. Normal tracking.",
+      "fallback": "sans-serif"
+    },
+    "mono": {
+      "family": "JetBrains Mono, monospace",
+      "usage": "Use for coupon codes, transaction IDs, and API keys.",
+      "fallback": "monospace"
+    }
+  },
+  "colors": {
+    "mode": "dark",
+    "palette": {
+      "background": {
+        "default": "#020408",
+        "paper": "#0B0E14",
+        "subtle": "#151921"
+      },
+      "primary": {
+        "main": "#10B981",
+        "light": "#34D399",
+        "dark": "#059669",
+        "contrast": "#FFFFFF"
+      },
+      "secondary": {
+        "main": "#F59E0B",
+        "light": "#FBBF24",
+        "dark": "#D97706",
+        "contrast": "#000000"
+      },
+      "text": {
+        "primary": "#FAFAFA",
+        "secondary": "#A1A1AA",
+        "muted": "#52525B"
+      },
+      "border": {
+        "default": "rgba(255, 255, 255, 0.08)",
+        "active": "rgba(255, 255, 255, 0.15)"
+      },
+      "status": {
+        "success": "#10B981",
+        "error": "#EF4444",
+        "warning": "#F59E0B",
+        "info": "#3B82F6"
+      }
+    },
+    "gradients": {
+      "hero": "radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.15) 0%, rgba(2, 4, 8, 0) 50%)",
+      "card_glow": "linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%)",
+      "tracing_beam": "linear-gradient(90deg, transparent, #10B981, transparent)"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": {
+      "default": "backdrop-filter: blur(12px); background: rgba(11, 14, 20, 0.7); border: 1px solid rgba(255, 255, 255, 0.08);",
+      "heavy": "backdrop-filter: blur(24px); background: rgba(2, 4, 8, 0.85); border-bottom: 1px solid rgba(255, 255, 255, 0.05);"
+    },
+    "shadows": {
+      "glow": "0 0 20px rgba(16, 185, 129, 0.15)",
+      "card": "0 4px 24px -4px rgba(0, 0, 0, 0.4)"
+    },
+    "borders": {
+      "subtle": "1px solid rgba(255, 255, 255, 0.08)",
+      "highlight": "1px solid rgba(16, 185, 129, 0.3)"
+    },
+    "textures": {
+      "noise": "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E\")"
+    }
+  },
+  "layout_strategy": {
+    "marketing": {
+      "grid": "Tetris Grid (Mode A)",
+      "spacing": "Generous (p-8 to p-32)",
+      "container": "max-w-7xl mx-auto"
+    },
+    "dashboard": {
+      "grid": "Control Room Grid (Mode B)",
+      "spacing": "Compact (p-4 to p-6)",
+      "sidebar": "Fixed width (240px), Glassmorphism"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-6 rounded-full font-medium transition-all shadow-[0_0_15px_rgba(16,185,129,0.3)] hover:shadow-[0_0_25px_rgba(16,185,129,0.5)]",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/90 h-10 px-6 rounded-full font-medium",
+      "outline": "border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-6 rounded-full"
+    },
+    "cards": {
+      "default": "bg-card text-card-foreground rounded-xl border border-border shadow-sm hover:border-primary/30 transition-colors",
+      "glass": "bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl text-white"
+    },
+    "inputs": {
+      "default": "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    }
+  },
+  "image_urls": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1654707634802-a8282d72950e?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Luxury shopping bag dark background",
+      "category": "hero"
+    },
+    "security_feature": {
+      "url": "https://images.unsplash.com/photo-1639503547276-90230c4a4198?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Abstract digital security lock",
+      "category": "feature"
+    },
+    "happy_shopper": {
+      "url": "https://images.unsplash.com/photo-1713256683892-5bab22f76be0?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Happy person holding phone shopping",
+      "category": "testimonial"
+    },
+    "brand_logos": [
+      {
+        "url": "https://images.unsplash.com/photo-1674978037981-fef8cbf2b3a2?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Nike Logo White",
+        "category": "logo"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1518841024803-143c51852c8a?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Reebok Logo",
+        "category": "logo"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Implement the 'Dark Elegant' theme by default. Use the provided color palette variables in tailwind.config.js.",
+    "For the Landing Page, use the 'Tetris Grid' layout. Don't just stack sections. Overlap elements and use negative space.",
+    "For the Dashboard, use the 'Control Room' grid. Keep it dense but legible. Use the 'Glassmorphism' style for the sidebar and header.",
+    "Use 'Outfit' font for all headings. Import it from Google Fonts.",
+    "Use 'Inter' font for body text. Import it from Google Fonts.",
+    "Use 'JetBrains Mono' for any code-like elements (coupon codes).",
+    "Apply the 'noise' texture to the background of the main app container to give it a premium, non-digital feel.",
+    "Use the 'Tracing Beam' effect (animated border) for the 'Featured Coupons' section.",
+    "Ensure all interactive elements have 'data-testid' attributes.",
+    "Use 'sonner' for all toast notifications.",
+    "Do NOT use gradients for text. Keep text solid white or grey for readability.",
+    "When displaying coupons, use a 'Ticket' shape (with cutout circles) using CSS clip-path or SVG masks."
+  ],
+  "universal_guidelines": [
+    "Avoid 'AI slop' - generic, centered, boring layouts.",
+    "Create depth with z-index and layered elements.",
+    "Use 2-3x more spacing than usual.",
+    "Micro-animations are mandatory for all interactions.",
+    "Never use transparent backgrounds without blur for overlays.",
+    "Respect 'prefers-reduced-motion'.",
+    "Ensure contrast ratios meet APCA standards."
+  ]
+}
